@@ -1,0 +1,84 @@
+ html {
+	margin-left: 140px;
+	margin-right: 140px; 
+}
+
+/*封面*/
+#cover {
+	position: relative;
+	padding: 0 0;
+}
+
+#cover p {
+	font-family: "Helvetica";
+	font-size: 64px;
+	position: absolute;
+	text-align: center;
+}
+
+#cover img {
+	float: right;
+}
+
+/*引文*/
+#passage {
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.topic {
+	font-family: "Helvetica";
+	font-size: 28px;
+}
+
+.content {
+	margin-left: 53px;
+	font-size: 20px;
+}
+
+/*早餐*/
+#breakfast {
+	margin-bottom: 60px;
+	padding-bottom: 80px;
+	border-bottom: solid 1px #787D7B;
+}
+
+#breakfast p {
+	font-size: 28px;
+}
+
+.pictureb {
+	padding: 0 0;
+}
+
+/*午餐*/
+#lunch {
+	margin-top: 0px;
+	margin-bottom: 60px;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	border-bottom: solid 1px #787D7B;
+}
+
+#lunch p {
+	font-size: 28px;
+}
+
+.picturel {
+	padding: 0 0;
+}
+
+/*晚餐*/
+#dinner {
+	margin-top: 0px;
+	margin-bottom: 60px;
+	padding-top: 0px; 
+}
+
+#dinner p {
+	font-size: 28px;
+}
+
+.pictured {
+	padding: 0 0;
+}
