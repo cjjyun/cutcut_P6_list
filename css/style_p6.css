@@ -12,9 +12,9 @@ html {
 
 #cover p {
 	font-family: "Helvetica";
-	font-size: 64px;
+	font-size: 72px;
 	position: absolute;
-	padding-left: 383px;
+	padding-left: 366px;
 	padding-top: 150px;
 }
 
@@ -46,7 +46,8 @@ html {
 }
 
 .topicb p {
-	font-size: 28px;
+	font-size: 32px;
+	padding-bottom: 10px;
 }
 
 .pictureb {
@@ -86,7 +87,8 @@ html {
 }
 
 .topicl p {
-	font-size: 28px;
+	font-size: 32px;
+	padding-bottom: 10px;
 }
 
 .picturel {
@@ -124,7 +126,8 @@ html {
 }
 
 .topicd p {
-	font-size: 28px;
+	font-size: 32px;
+	padding-bottom: 10px;
 }
 
 .pictured {
