@@ -1,19 +1,21 @@
- html {
+html {
 	margin-left: 140px;
-	margin-right: 140px; 
+	margin-right: 140px;
 }
 
 /*封面*/
 #cover {
 	position: relative;
 	padding: 0 0;
+	text-align: center;
 }
 
 #cover p {
 	font-family: "Helvetica";
 	font-size: 64px;
 	position: absolute;
-	text-align: center;
+	padding-left: 383px;
+	padding-top: 150px;
 }
 
 #cover img {
@@ -39,11 +41,11 @@
 /*早餐*/
 #breakfast {
 	margin-bottom: 60px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 	border-bottom: solid 1px #787D7B;
 }
 
-#breakfast p {
+.topicb p {
 	font-size: 28px;
 }
 
@@ -51,21 +53,67 @@
 	padding: 0 0;
 }
 
+.b1 img {
+	float: right;
+}
+
+.b2 img {
+	float: right;
+}
+
+.b3 img {
+	float: right;
+}
+
+.menub {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menub p {
+	font-size: 20px;
+}
+
 /*午餐*/
 #lunch {
 	margin-top: 0px;
 	margin-bottom: 60px;
 	padding-top: 0px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 	border-bottom: solid 1px #787D7B;
 }
 
-#lunch p {
+.topicl p {
 	font-size: 28px;
 }
 
 .picturel {
 	padding: 0 0;
+}
+
+.l1 img {
+	float: right;
+}
+
+.l2 img {
+	float: right;
+}
+
+.l3 img {
+	float: right;
+}
+
+.menul {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menul p {
+	font-size: 20px;
 }
 
 /*晚餐*/
@@ -75,10 +123,33 @@
 	padding-top: 0px; 
 }
 
-#dinner p {
+.topicd p {
 	font-size: 28px;
 }
 
 .pictured {
 	padding: 0 0;
+}
+
+.d1 img {
+	float: right;
+}
+
+.d2 img {
+	float: right;
+}
+
+.d3 img {
+	float: right;
+}
+
+.menud {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.menud p {
+	font-size: 20px;
 }
