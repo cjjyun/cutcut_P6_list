@@ -20,7 +20,7 @@ html {
 	font-size: 72px;
 	color: #fff;
 	position: absolute;
-	padding-left: 195px;
+	padding-left: 140px;
 	padding-top: 130px;
 }
 
@@ -48,13 +48,12 @@ html {
 }
 
 .topic {
-	font-family: "Helvetica";
-	font-size: 28px;
+	font-family: "Georgia";
 }
 
 .content {
 	margin-left: 53px;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 /*早餐*/
@@ -94,7 +93,7 @@ html {
 }
 
 .menub p {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 /*午餐*/
@@ -135,7 +134,7 @@ html {
 }
 
 .menul p {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 /*晚餐*/
@@ -174,5 +173,5 @@ html {
 }
 
 .menud p {
-	font-size: 20px;
+	font-size: 24px;
 }
