@@ -1,9 +1,14 @@
 html {
 	margin-left: 140px;
 	margin-right: 140px;
+	background-color: #F7F5F3;
 }
 
 /*封面*/
+#coverbkground {
+	background-color: #F7F5F3;
+}
+
 #cover {
 	position: relative;
 	padding: 0 0;
@@ -11,21 +16,35 @@ html {
 }
 
 #cover p {
-	font-family: "Helvetica";
+	font-family: "Georgia";
 	font-size: 72px;
+	color: #fff;
 	position: absolute;
-	padding-left: 366px;
-	padding-top: 150px;
+	padding-left: 195px;
+	padding-top: 130px;
 }
+
+.quote:before {
+    content: " “ ";
+    color: #bd9f77;
+    left: -0.5em;
+    top: -0.1em;
+    font-size: 160%;
+ }
 
 #cover img {
 	float: right;
+	padding-top: 40px;
+	background-color: #F7F5F3;
+}
+
+#leftcover {
+	position: absolute;
 }
 
 /*引文*/
 #passage {
-	margin-top: 80px;
-	margin-bottom: 60px;
+	background-color: #F7F5F3;
 }
 
 .topic {
@@ -40,14 +59,15 @@ html {
 
 /*早餐*/
 #breakfast {
-	margin-bottom: 60px;
 	padding-bottom: 50px;
 	border-bottom: solid 1px #787D7B;
+	position: relative;
+	background-color: #F7F5F3;
 }
 
 .topicb p {
-	font-size: 32px;
 	padding-bottom: 10px;
+	font-family: "Georgia";
 }
 
 .pictureb {
@@ -80,15 +100,15 @@ html {
 /*午餐*/
 #lunch {
 	margin-top: 0px;
-	margin-bottom: 60px;
 	padding-top: 0px;
 	padding-bottom: 50px;
 	border-bottom: solid 1px #787D7B;
+	background-color: #F7F5F3;
 }
 
 .topicl p {
-	font-size: 32px;
 	padding-bottom: 10px;
+	font-family: "Georgia";
 }
 
 .picturel {
@@ -121,13 +141,13 @@ html {
 /*晚餐*/
 #dinner {
 	margin-top: 0px;
-	margin-bottom: 60px;
-	padding-top: 0px; 
+	padding-top: 0px;
+	background-color: #F7F5F3;
 }
 
 .topicd p {
-	font-size: 32px;
 	padding-bottom: 10px;
+	font-family: "Georgia";
 }
 
 .pictured {
