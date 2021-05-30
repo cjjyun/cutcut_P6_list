@@ -4,6 +4,23 @@ html {
 	background-color: #F7F5F3;
 }
 
+/*navbar*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+ }
+}
+
+.navbar-nav {
+	margin-left: 650px;
+}
+
 /*封面*/
 #coverbkground {
 	background-color: #F7F5F3;
