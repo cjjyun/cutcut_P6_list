@@ -1,6 +1,6 @@
 html {
-	margin-left: 140px;
-	margin-right: 140px;
+	width:100%;
+	overflow-x:hidden;
 }
 
 /*  文字連結 */
@@ -75,6 +75,11 @@ html {
 }
 
 /*封面*/
+.top {
+	background-color: #E8F0EC;
+	padding-bottom: 40px;
+}
+
 #cover {
 	position: relative;
 	padding: 0px 0px;
@@ -92,6 +97,7 @@ html {
 	margin-top: 70px;
 	margin-left: 30px;
 	padding-top: 55px;
+	padding-left: 210px;
 }
 
 .quote:before {
@@ -113,6 +119,11 @@ html {
 }
 
 /*引文*/
+.container {
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
 .topic {
 	font-family: FakePearl-Regular;
 }
@@ -121,6 +132,14 @@ html {
 	margin-left: 53px;
 	font-size: 24px;
 	font-family: FakePearl-Regular;
+}
+
+/*底線*/
+mark.green {
+	border-bottom: 8px solid #A3C9B7;
+	background: none;
+	margin: 0 -2px;
+	padding: 0 2px;
 }
 
 /*早餐*/
@@ -133,8 +152,8 @@ html {
 }
 
 .topicb p {
-	padding-bottom: 10px;
 	font-family: FakePearl-Regular;
+	padding-bottom: 10px;
 }
 
 .pictureb {
