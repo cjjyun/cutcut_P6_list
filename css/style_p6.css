@@ -76,8 +76,13 @@ html {
 
 /*封面*/
 .top {
-	background-color: #E8F0EC;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
+	background-image: 
+		linear-gradient(
+			to right,
+			#E8F0EC 70%,
+			#fff 30%
+			)
 }
 
 #cover {
