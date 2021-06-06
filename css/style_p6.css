@@ -107,7 +107,7 @@ html {
 
 .quote:before {
     content: " “ ";
-    color: #bd9f77;
+    color: black;
     left: -0.5em;
     top: -0.1em;
     font-size: 160%;
