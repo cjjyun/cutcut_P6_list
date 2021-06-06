@@ -149,20 +149,25 @@ mark.green {
 
 /*早餐*/
 #breakfast {
-	padding-right: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
 	padding-bottom: 50px;
 	border-bottom: solid 1px #787D7B;
-	position: relative;
 	width: 1121.61px;
 }
 
 .topicb p {
-	font-family: FakePearl-Regular;
 	padding-bottom: 10px;
+	font-family: FakePearl-Regular;
 }
 
 .pictureb {
-	padding: 0 0;
+	padding: 0;
+	margin: 0;
+}
+
+.pictureb a:hover {
+	opacity: 0.8;
 }
 
 .b1 img {
@@ -178,18 +183,12 @@ mark.green {
 }
 
 .menub {
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+	padding: 0;
+	margin: 0;
 	padding-top: 20px;
 	text-align: right;
 	font-family: FakePearl-Regular;
 	font-size: 24px;
-}
-
-.menub a {
-	text-decoration: none;
-	color: black;
-	font-family: FakePearl-Regular;
 }
 
 /*午餐*/
@@ -210,6 +209,10 @@ mark.green {
 	padding: 0 0;
 }
 
+.picturel a:hover {
+	opacity: 0.8;
+}
+
 .l1 img {
 	float: right;
 }
@@ -228,15 +231,6 @@ mark.green {
 	padding-top: 20px;
 	text-align: right;
 	font-family: FakePearl-Regular;
-}
-
-.menul a {
-	text-decoration: none;
-	color: black;
-	font-family: FakePearl-Regular;
-}
-
-.menul p {
 	font-size: 24px;
 }
 
@@ -254,6 +248,10 @@ mark.green {
 
 .pictured {
 	padding: 0 0;
+}
+
+.pictured a:hover {
+	opacity: 0.8;
 }
 
 .d1 img {
@@ -274,14 +272,5 @@ mark.green {
 	padding-top: 20px;
 	text-align: right;
 	font-family: FakePearl-Regular;
-}
-
-.menud a {
-	text-decoration: none;
-	color: black;
-	font-family: FakePearl-Regular;
-}
-
-.menud p {
 	font-size: 24px;
 }
